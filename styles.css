@@ -1,17 +1,20 @@
 
-.german-hungarian:hover {
-   background-image: url("./Images/Flag_of_Hungary.svg.png") no-repeat;
-   display: inline-block;
-   opacity: 1;
-   width: 40%;
+.hungarian-overlay {
+    transition: .6s ease;
+    opacity: 0;
 }
 
-.french-irish:hover {
-    background-image: url("./Images/Flag_of_Ireland.svg.png") no-repeat;
-    display: inline-block;
+.german-hungarian:hover .hungarian-overlay {
     opacity: 1;
-    width: 40%;
-    
 }
-    
+
+.french-irish {
+    transition: .6s ease;
+    opacity: 0;
+}
+
+.french-irish:hover .irish-overlay {
+    opacity: 1;
+}
+
 
