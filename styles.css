@@ -1,10 +1,17 @@
 
-
-.german:hover {
-   background: url("./Images/Flag_of_Hungary.svg.png");
+.german-hungarian:hover {
+   background-image: url("./Images/Flag_of_Hungary.svg.png") no-repeat;
+   display: inline-block;
+   opacity: 1;
+   width: 40%;
 }
 
-.french:hover {
-    background: url("./Images/Flag_of_Ireland.svg.png");
+.french-irish:hover {
+    background-image: url("./Images/Flag_of_Ireland.svg.png") no-repeat;
+    display: inline-block;
+    opacity: 1;
+    width: 40%;
+    
 }
+    
 
